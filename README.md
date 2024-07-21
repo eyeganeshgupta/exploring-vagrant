@@ -1,0 +1,2 @@
+Vagrant is an open-source tool designed for building and maintaining portable virtual software development environments.
+It was created by HashiCorp and aims to provide a unified workflow for developing applications across various environments.
