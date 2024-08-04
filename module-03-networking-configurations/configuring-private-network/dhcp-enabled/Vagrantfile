@@ -1,0 +1,6 @@
+# DHCP stands for Dynamic Host Configuration Protocol, which is a networking protocol that automatically assigns IP addresses and other configurations to devices when they connect to a network. DHCP servers can also assign Domain Name System (DNS) addresses, subnet masks, and default gateways.
+
+Vagrant.configure(2) do | config |
+    config.vm.box = "ubuntu/jammy64"
+    config.vm.network = "private_network", type: "dhcp"
+end
